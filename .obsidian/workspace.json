@@ -1,0 +1,323 @@
+{
+  "main": {
+    "id": "1b288f3aff4a793a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d7f698207e566d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbe425dbdda6b9f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "About - Bash Script"
+            }
+          },
+          {
+            "id": "c7acb24ff80cd44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/heredocs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "heredocs"
+            }
+          },
+          {
+            "id": "ff5b47c3b708d070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/cron.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cron"
+            }
+          },
+          {
+            "id": "d0968e315f26693e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/Automatizacion en linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automatizacion en linux"
+            }
+          },
+          {
+            "id": "ecd8fab96d3ecfed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/at.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "at"
+            }
+          },
+          {
+            "id": "4fa7a34fcb4ccda6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/cron.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cron"
+            }
+          },
+          {
+            "id": "51ca694d2e52907e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Operadores de comparacion de archivos en bash"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfa9606ea38ff6f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9909e5f7a815108b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d50ab1d41a897bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "7515990fff23457f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "251c69d9abfa8f74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "8a5fc554f54a5c87",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d4c2c8305b7c207",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "464b315bac773ffb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Plantillas/plantilla-notas-fugaces.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de plantilla-notas-fugaces"
+            }
+          },
+          {
+            "id": "91e517ee77f5c2e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Plantillas/plantilla-notas-fugaces.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de plantilla-notas-fugaces"
+            }
+          },
+          {
+            "id": "6cc8acc1660b2dfa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "ba612556089a2545",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "7ce431687847af46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Plantillas/plantilla-notas-fugaces.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de plantilla-notas-fugaces"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "graph:Abrir vista gráfica": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
+    }
+  },
+  "active": "fbe425dbdda6b9f9",
+  "lastOpenFiles": [
+    "Notas permanentes/Linux/14. Bash Script/heredocs.md",
+    "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
+    "Notas permanentes/Linux/14. Bash Script/cron.md",
+    "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
+    "Notas permanentes/Linux/14. Bash Script/at.md",
+    "Notas permanentes/Linux/14. Bash Script/Ciclos while en bash.md",
+    "Notas permanentes/Linux/14. Bash Script/Operadores de comparación en bash.md",
+    "Notas permanentes/Linux/14. Bash Script/Automatizacion en linux.md",
+    "Notas permanentes/Linux/2. Comandos basicos de linux/comandos-linux.md",
+    "Notas permanentes/Linux/14. Bash Script/Modularizacion en Bash Script.md",
+    "Notas permanentes/Linux/14. Bash Script/Funciones en Bash Script.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $@.md",
+    "Notas permanentes/Linux/14. Bash Script/Exit Codes.md",
+    "Notas permanentes/Linux/14. Bash Script/Switch en bash.md",
+    "Notas permanentes/Linux/5. Admin de Usuarios y Grupos/groupadd.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $ASTERISCO.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable especiales en bash.md",
+    "Notas permanentes/Linux/14. Bash Script/set.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $PIPESTATUS.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $BASHPID.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $-.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $!.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $$.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $_.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $GATO.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $0.md",
+    "Excalidraw",
+    "assets/Excalidraw",
+    "assets/flow-diagram-shapes.png",
+    "Notas permanentes/Fundamentos",
+    "Notas permanentes/Linux/14. Bash Script",
+    "assets/DNS-explained.png",
+    "Pasted image 20260814141921.png",
+    "Notas permanentes/Linux/Utilidades adicionales",
+    "Notas permanentes/Linux/13. Redes",
+    "Notas permanentes/Linux/12. Booteo con Linux",
+    "assets/algebra-bool-ejercicios.png",
+    "assets/fstab-example.png",
+    "Notas permanentes/Linux/11. DIsco y Sistema de Archivos",
+    "Notas permanentes/Linux/10. Administracion de Paquetes",
+    "Notas permanentes/Linux/9. Administracion de Servicios",
+    "Pasted image 20260722210952.png",
+    "Excalidraw/redireccionamiento (>).gif",
+    "redireccionamiento.gif",
+    "Pasted image 20260718142520.png",
+    "Pasted image 20260718142518.png"
+  ]
+}
