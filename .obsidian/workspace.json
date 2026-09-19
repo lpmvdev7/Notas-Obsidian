@@ -4,108 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "6d7f698207e566d9",
+        "id": "73a2871eb8473fd5",
         "type": "tabs",
         "children": [
           {
-            "id": "fbe425dbdda6b9f9",
+            "id": "9bd948ccced17c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
+                "file": "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About - Bash Script"
+              "title": "About - Introduccion Docker"
             }
           },
           {
-            "id": "c7acb24ff80cd44a",
+            "id": "a0a346dbc61b0348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/heredocs.md",
+                "file": "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "heredocs"
+              "title": "find - expresiones de recorrido"
             }
           },
           {
-            "id": "ff5b47c3b708d070",
+            "id": "7d112ddc88337a34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/cron.md",
+                "file": "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cron"
+              "title": "Dockerfile"
             }
           },
           {
-            "id": "d0968e315f26693e",
+            "id": "e569c63935a9e91c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/Automatizacion en linux.md",
+                "file": "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automatizacion en linux"
-            }
-          },
-          {
-            "id": "ecd8fab96d3ecfed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/at.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "at"
-            }
-          },
-          {
-            "id": "4fa7a34fcb4ccda6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/cron.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cron"
-            }
-          },
-          {
-            "id": "51ca694d2e52907e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Operadores de comparacion de archivos en bash"
+              "title": "Contenedores vs Maquinas Virtuales"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,12 +119,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8a5fc554f54a5c87",
@@ -271,10 +230,19 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "fbe425dbdda6b9f9",
+  "active": "7d112ddc88337a34",
   "lastOpenFiles": [
-    "Notas permanentes/Linux/14. Bash Script/heredocs.md",
+    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de filtrado.md",
+    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
+    "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
+    "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
+    "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
+    "Notas permanentes/Docker/1. Introduccion/Instalacion de Docker.md",
+    "Notas permanentes/Docker/About - Docker.md",
+    "Notas permanentes/Docker/1. Introduccion",
+    "Notas permanentes/Docker",
     "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
+    "Notas permanentes/Linux/14. Bash Script/heredocs.md",
     "Notas permanentes/Linux/14. Bash Script/cron.md",
     "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
     "Notas permanentes/Linux/14. Bash Script/at.md",
@@ -292,13 +260,6 @@
     "Notas permanentes/Linux/14. Bash Script/Variable especiales en bash.md",
     "Notas permanentes/Linux/14. Bash Script/set.md",
     "Notas permanentes/Linux/14. Bash Script/Variable $PIPESTATUS.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $BASHPID.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $-.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $!.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $$.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $_.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $GATO.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $0.md",
     "Excalidraw",
     "assets/Excalidraw",
     "assets/flow-diagram-shapes.png",
@@ -312,8 +273,6 @@
     "assets/algebra-bool-ejercicios.png",
     "assets/fstab-example.png",
     "Notas permanentes/Linux/11. DIsco y Sistema de Archivos",
-    "Notas permanentes/Linux/10. Administracion de Paquetes",
-    "Notas permanentes/Linux/9. Administracion de Servicios",
     "Pasted image 20260722210952.png",
     "Excalidraw/redireccionamiento (>).gif",
     "redireccionamiento.gif",
