@@ -8,59 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9bd948ccced17c4e",
+            "id": "38ff568714672bd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
+                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/About - Persistencia de Datos en Contenedores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About - Introduccion Docker"
+              "title": "About - Persistencia de Datos en Contenedores"
             }
           },
           {
-            "id": "a0a346dbc61b0348",
+            "id": "49b6f8cd24958075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
+                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Montaje de Volumenes Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "find - expresiones de recorrido"
+              "title": "Montaje de Volumenes Docker"
             }
           },
           {
-            "id": "7d112ddc88337a34",
+            "id": "3ec7a1dd179e5b02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
+                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dockerfile"
-            }
-          },
-          {
-            "id": "e569c63935a9e91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Contenedores vs Maquinas Virtuales"
+              "title": "Docker Volumes"
             }
           }
         ],
@@ -119,12 +105,12 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8a5fc554f54a5c87",
@@ -230,13 +216,23 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "7d112ddc88337a34",
+  "active": "3ec7a1dd179e5b02",
   "lastOpenFiles": [
-    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de filtrado.md",
-    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/About - Persistencia de Datos en Contenedores.md",
     "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
-    "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Montaje de Volumenes Docker.md",
+    "Pasted image 20260924165730.png",
+    "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores",
+    "assets/Pasted image 20260923104338.png",
     "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
+    "Notas permanentes/Docker/1. Introduccion/Dockerhub.md",
+    "Notas permanentes/Docker/1. Introduccion/Docker Image.md",
+    "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
+    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
+    "assets/Pasted image 20260921182613.png",
+    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de filtrado.md",
     "Notas permanentes/Docker/1. Introduccion/Instalacion de Docker.md",
     "Notas permanentes/Docker/About - Docker.md",
     "Notas permanentes/Docker/1. Introduccion",
@@ -254,12 +250,6 @@
     "Notas permanentes/Linux/14. Bash Script/Funciones en Bash Script.md",
     "Notas permanentes/Linux/14. Bash Script/Variable $@.md",
     "Notas permanentes/Linux/14. Bash Script/Exit Codes.md",
-    "Notas permanentes/Linux/14. Bash Script/Switch en bash.md",
-    "Notas permanentes/Linux/5. Admin de Usuarios y Grupos/groupadd.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $ASTERISCO.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable especiales en bash.md",
-    "Notas permanentes/Linux/14. Bash Script/set.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $PIPESTATUS.md",
     "Excalidraw",
     "assets/Excalidraw",
     "assets/flow-diagram-shapes.png",
@@ -272,11 +262,7 @@
     "Notas permanentes/Linux/12. Booteo con Linux",
     "assets/algebra-bool-ejercicios.png",
     "assets/fstab-example.png",
-    "Notas permanentes/Linux/11. DIsco y Sistema de Archivos",
     "Pasted image 20260722210952.png",
-    "Excalidraw/redireccionamiento (>).gif",
-    "redireccionamiento.gif",
-    "Pasted image 20260718142520.png",
-    "Pasted image 20260718142518.png"
+    "Excalidraw/redireccionamiento (>).gif"
   ]
 }
