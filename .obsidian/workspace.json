@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
+                "file": "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Volumes"
+              "title": "Docker Container"
             }
           }
         ],
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8a5fc554f54a5c87",
@@ -218,9 +217,9 @@
   },
   "active": "3ec7a1dd179e5b02",
   "lastOpenFiles": [
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/About - Persistencia de Datos en Contenedores.md",
     "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
-    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Montaje de Volumenes Docker.md",
     "Pasted image 20260924165730.png",
     "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
