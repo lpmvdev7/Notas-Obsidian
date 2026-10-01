@@ -10,5 +10,4 @@ Esto permite la persistencia de datos afuera del contenedor incluso cuando el co
 
 ### Notas Relacionadas
 [[Docker Volumes]]
-[[Bind Mounts]]
 

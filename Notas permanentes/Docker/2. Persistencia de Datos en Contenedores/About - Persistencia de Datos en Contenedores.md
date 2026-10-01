@@ -9,5 +9,4 @@ En este modulo estaremos navegando por aquellas utilidades que docker nos brinda
 ### Notas Relacionadas
 [[Docker Volumes]]
 [[Montaje de Volumenes Docker]]
-[[Bind Mounts]]
 

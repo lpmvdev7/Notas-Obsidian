@@ -19,7 +19,7 @@ Los volúmenes gestionados por docker se guardan en:
 Dependiendo de como ejecutemos nuestro volumen se guardara un hash o un nombre de volumen, siendo el hash un volumen anónimo y el nombre pues un named volume.
 
 ##### 2. Bind mounts
-En este tipo de volumen es apuntas directamente a una carpeta de la maquina host. Son muy útiles en desarrollo
+En este tipo de volumenes apuntas directamente a una carpeta de la maquina host. Son muy útiles en desarrollo
 
 ### Docker CLI para volúmenes
 ```bash
@@ -62,9 +62,142 @@ docker run -d \
 ```
 
 ### Caso de uso de un docker volume
+Imaginemos el siguiente ejemplo, tenemos una carpeta en windows en la cual se generan diariamente facturas, como requisito organizacional necesitamos separar los archivos pdf en una carpeta diferente, esto para prepararlos para impresión.
 
+**¿Como solucionarías esta problemática usando docker?**
+
+Lo primero que haría seria crear un script en bash que ejecute la operación objetivo.
+```bash
+#! /bin/bash
+
+# Validez de los argumentos pasados por script
+validacion(){
+	if [[ $# -eq 0 || $# -gt 1 ]];then
+		return 1
+	else
+		# Comprobar que el argumento sea un directorio
+		if [[ -d $1 ]];then
+			return 0
+		else
+			return 1
+		fi
+	fi
+}
+
+# Crear una copia de la carpeta pasada como argumento
+copiaCarpeta(){
+	cp -r "${1%/}/" "${1%/}_copia/"
+	return 0
+}
+
+
+# Navegar a la carpeta
+navegarCarpeta(){
+	cd "${1%/}_copia/"
+}
+
+# Borrar por extension de archivo
+borrarExtension(){
+	rm *."xml"
+}
+
+
+# Flujo del programa
+implementacion(){
+	usuario=$1
+	validacion $usuario
+	if [[ $? -eq 0 ]];then
+		copiaCarpeta $usuario
+		if [[ $? -eq 0 ]];then
+			navegarCarpeta $usuario
+			if [[ $? -eq 0 ]];then
+				borrarExtension
+				if [[ $? -eq 0 ]];then
+					return 0
+				else
+					return 1
+				fi
+			else
+				echo "Usage: $0 <dir>"
+				return 1
+			fi
+		else
+			echo "Usage: $0 <dir>"
+			return 1
+		fi
+
+	elif [[ $? -eq 1 ]];then
+		echo "Usage: $0 <dir>"
+		return 1 
+	fi
+}
+
+implementacion $1
+
+```
+
+Ahora creamos un dockerfile
+```dockerfile
+FROM ubuntu:latest
+
+WORKDIR /container
+
+COPY automatizacion_facturas.sh .
+
+RUN chmod +x automatizacion_facturas.sh
+
+CMD ["bash"] 
+```
+
+Construimos la imagen de nuestro proyecto.
+```bash
+# Nos aseguramos que en donde ejecutemos este comando se encuentre el dockerfile
+docker build -t proyecto_volumen .
+```
+
+Dentro de la carpeta de nuestro proyecto creamos dos carpetas, la primera servirá como la carpeta en donde tendremos nuestras facturas y la otra como la carpeta en donde guardaremos el resultado de ejecutar nuestro script en el contenedor.
+```bash
+# Carpeta que contendra todas nuestras facturas
+mkdir facturas
+cd facturas
+touch archivo{1..9}.xml
+touch archivo{1..9}.pdf
+
+# Carpeta que contendra el resultado
+mkdir output
+```
+
+Ejecutamos el comando
+```bash
+docker run -ti --name="volumen1" -v /home/pablo/contenedores/proyecto_volumes/facturas:/container/facturas -v /home/pablo/contenedores/proyecto_volumes/output:/container/output proyecto_volumen:latest
+```
+
+Dentro del contenedor ejecutamos lo siguiente
+```bash
+# Ejecutamos el script colocando como argumento la carpeta facturas
+bash automatizacion_facturas.sh facturas/
+
+# Mandamos la nueva carpeta que se creo hacia la carpeta output
+mv facturas_copia output
+```
+
+Al salirnos del contenedor y dirigirnos hacia nuestra maquina host podemos ver que la carpeta resultante únicamente con los pdf ya se encuentra disponible.
+```bash
+cd output
+cd facturas_copia
+ls
+archivo1.pdf  archivo3.pdf  archivo5.pdf  archivo7.pdf  archivo9.pdf
+archivo2.pdf  archivo4.pdf  archivo6.pdf  archivo8.pdf
+```
+
+Esto ya nos sirve para mantener un orden en nuestros archivos.
+
+#### Dibujo de la solución
+![[volume_container_exercise.excalidraw | 1000]]
 
 ### Notas Relacionadas
-
+[[Bash Scripting]]
+[[About - Persistencia de Datos en Contenedores]]
+[[Montaje de Volumenes Docker]]
 
 

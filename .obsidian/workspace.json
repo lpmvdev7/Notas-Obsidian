@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "73a2871eb8473fd5",
+        "id": "296e94dcdc67cfa3",
         "type": "tabs",
         "children": [
           {
-            "id": "38ff568714672bd0",
+            "id": "29730a9b84892989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/About - Persistencia de Datos en Contenedores.md",
+                "file": "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About - Persistencia de Datos en Contenedores"
+              "title": "About-docker compose"
             }
           },
           {
-            "id": "49b6f8cd24958075",
+            "id": "f3ba90601731c691",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Montaje de Volumenes Docker.md",
+                "file": "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Montaje de Volumenes Docker"
-            }
-          },
-          {
-            "id": "3ec7a1dd179e5b02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker Container"
+              "title": "Estructura de un yaml para docker compose"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8a5fc554f54a5c87",
@@ -215,14 +202,25 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "3ec7a1dd179e5b02",
+  "active": "f3ba90601731c691",
   "lastOpenFiles": [
-    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/docker run vs docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/About - Multiples Contenedores.md",
+    "Notas permanentes/Docker/3. Multiples contenedores",
+    "Sin nombre",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/About - Persistencia de Datos en Contenedores.md",
-    "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Docker Volumes.md",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Montaje de Volumenes Docker.md",
-    "Pasted image 20260924165730.png",
+    "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores/Bind Mounts.md",
+    "Excalidraw/volume_container_exercise.excalidraw.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $BASHPID.md",
     "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
+    "Notas permanentes/Linux/14. Bash Script/Variable $GATO.md",
+    "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
+    "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
+    "Pasted image 20260924165730.png",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores",
     "assets/Pasted image 20260923104338.png",
     "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
@@ -236,19 +234,10 @@
     "Notas permanentes/Docker/About - Docker.md",
     "Notas permanentes/Docker/1. Introduccion",
     "Notas permanentes/Docker",
-    "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
     "Notas permanentes/Linux/14. Bash Script/heredocs.md",
     "Notas permanentes/Linux/14. Bash Script/cron.md",
     "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
     "Notas permanentes/Linux/14. Bash Script/at.md",
-    "Notas permanentes/Linux/14. Bash Script/Ciclos while en bash.md",
-    "Notas permanentes/Linux/14. Bash Script/Operadores de comparación en bash.md",
-    "Notas permanentes/Linux/14. Bash Script/Automatizacion en linux.md",
-    "Notas permanentes/Linux/2. Comandos basicos de linux/comandos-linux.md",
-    "Notas permanentes/Linux/14. Bash Script/Modularizacion en Bash Script.md",
-    "Notas permanentes/Linux/14. Bash Script/Funciones en Bash Script.md",
-    "Notas permanentes/Linux/14. Bash Script/Variable $@.md",
-    "Notas permanentes/Linux/14. Bash Script/Exit Codes.md",
     "Excalidraw",
     "assets/Excalidraw",
     "assets/flow-diagram-shapes.png",
@@ -257,8 +246,6 @@
     "assets/DNS-explained.png",
     "Pasted image 20260814141921.png",
     "Notas permanentes/Linux/Utilidades adicionales",
-    "Notas permanentes/Linux/13. Redes",
-    "Notas permanentes/Linux/12. Booteo con Linux",
     "assets/algebra-bool-ejercicios.png",
     "assets/fstab-example.png",
     "Pasted image 20260722210952.png",
