@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "f3ba90601731c691",
+            "id": "e1a4f35a126a2102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Estructura de un yaml para docker compose"
             }
+          },
+          {
+            "id": "9fae3438f106637d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas permanentes/Docker/3. Multiples contenedores/Problemática con docker compose.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problemática con docker compose"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8a5fc554f54a5c87",
@@ -202,10 +215,16 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f3ba90601731c691",
+  "active": "9fae3438f106637d",
   "lastOpenFiles": [
     "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/Problemática con docker compose.md",
+    "assets/backend-docker.png",
+    "assets/frontend-docker.png",
     "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
+    "Notas permanentes/Linux/7. Procesamiento de texto/About - Procesamiento de texto.md",
+    "Notas permanentes/Linux/7. Procesamiento de texto/awk-condicionales.md",
+    "Notas permanentes/Linux/7. Procesamiento de texto/awk.md",
     "Notas permanentes/Docker/3. Multiples contenedores/docker run vs docker compose.md",
     "Notas permanentes/Docker/3. Multiples contenedores/About - Multiples Contenedores.md",
     "Notas permanentes/Docker/3. Multiples contenedores",
@@ -231,13 +250,8 @@
     "assets/Pasted image 20260921182613.png",
     "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de filtrado.md",
     "Notas permanentes/Docker/1. Introduccion/Instalacion de Docker.md",
-    "Notas permanentes/Docker/About - Docker.md",
     "Notas permanentes/Docker/1. Introduccion",
     "Notas permanentes/Docker",
-    "Notas permanentes/Linux/14. Bash Script/heredocs.md",
-    "Notas permanentes/Linux/14. Bash Script/cron.md",
-    "Notas permanentes/Linux/14. Bash Script/Operadores de comparacion de archivos en bash.md",
-    "Notas permanentes/Linux/14. Bash Script/at.md",
     "Excalidraw",
     "assets/Excalidraw",
     "assets/flow-diagram-shapes.png",
@@ -247,8 +261,6 @@
     "Pasted image 20260814141921.png",
     "Notas permanentes/Linux/Utilidades adicionales",
     "assets/algebra-bool-ejercicios.png",
-    "assets/fstab-example.png",
-    "Pasted image 20260722210952.png",
-    "Excalidraw/redireccionamiento (>).gif"
+    "assets/fstab-example.png"
   ]
 }
