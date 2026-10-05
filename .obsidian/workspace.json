@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "296e94dcdc67cfa3",
+        "id": "e2c49ae23bf36814",
         "type": "tabs",
         "children": [
           {
-            "id": "29730a9b84892989",
+            "id": "f6957692f03f613f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "About-docker compose"
-            }
-          },
-          {
-            "id": "e1a4f35a126a2102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Estructura de un yaml para docker compose"
-            }
-          },
-          {
-            "id": "9fae3438f106637d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas permanentes/Docker/3. Multiples contenedores/Problemática con docker compose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problemática con docker compose"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,13 +182,17 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "9fae3438f106637d",
+  "active": "f6957692f03f613f",
   "lastOpenFiles": [
-    "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/docker-compose cli.md",
     "Notas permanentes/Docker/3. Multiples contenedores/Problemática con docker compose.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
+    "Notas permanentes/Docker/About - Docker.md",
+    "Notas permanentes/Docker/4. Networking/About  - Networking.md",
+    "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
+    "Notas permanentes/Docker/4. Networking",
     "assets/backend-docker.png",
     "assets/frontend-docker.png",
-    "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
     "Notas permanentes/Linux/7. Procesamiento de texto/About - Procesamiento de texto.md",
     "Notas permanentes/Linux/7. Procesamiento de texto/awk-condicionales.md",
     "Notas permanentes/Linux/7. Procesamiento de texto/awk.md",
@@ -248,8 +219,6 @@
     "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
     "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
     "assets/Pasted image 20260921182613.png",
-    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de filtrado.md",
-    "Notas permanentes/Docker/1. Introduccion/Instalacion de Docker.md",
     "Notas permanentes/Docker/1. Introduccion",
     "Notas permanentes/Docker",
     "Excalidraw",
@@ -259,7 +228,6 @@
     "Notas permanentes/Linux/14. Bash Script",
     "assets/DNS-explained.png",
     "Pasted image 20260814141921.png",
-    "Notas permanentes/Linux/Utilidades adicionales",
     "assets/algebra-bool-ejercicios.png",
     "assets/fstab-example.png"
   ]

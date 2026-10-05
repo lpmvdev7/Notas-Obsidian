@@ -12,6 +12,4 @@ Para ello docker compose utiliza un archivo con terminación YAML, dentro de est
 [[docker run vs docker compose]]
 [[Estructura de un yaml para docker compose]]
 [[docker-compose cli]]
-[[docker netwroking]]
-[[Compose files con redes]] 
 [[Problemática con docker compose]]

@@ -256,8 +256,6 @@ Me encanto realizar este pequeño proyecto ya que pude poner en practica lo que 
 [[docker run vs docker compose]]
 [[Estructura de un yaml para docker compose]]
 [[docker-compose cli]]
-[[docker netwroking]]
-[[Compose files con redes]] 
 [[Problemática con docker compose]]
 
 
