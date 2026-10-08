@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e2c49ae23bf36814",
+        "id": "563f45de4551c280",
         "type": "tabs",
         "children": [
           {
-            "id": "f6957692f03f613f",
+            "id": "3bee5bf3c6d4bab1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -182,13 +182,20 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "f6957692f03f613f",
+  "active": "3bee5bf3c6d4bab1",
   "lastOpenFiles": [
+    "Notas permanentes/Docker/4. Networking/Redes en docker.md",
+    "Notas permanentes/Docker/4. Networking/Tipos de Redes en Docker.md",
+    "Notas permanentes/Docker/4. Networking/Docker-newtork CLI.md",
+    "Notas permanentes/Docker/4. Networking/Topologia de red con docker networking.md",
+    "Notas permanentes/Docker/4. Networking/About  - Networking.md",
+    "Notas permanentes/Docker/4. Networking/Redes Bridge en Docker.md",
+    "Excalidraw/topologia-red-docker-network.excalidraw.md",
+    "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
+    "Notas permanentes/Docker/About - Docker.md",
     "Notas permanentes/Docker/3. Multiples contenedores/docker-compose cli.md",
     "Notas permanentes/Docker/3. Multiples contenedores/Problemática con docker compose.md",
     "Notas permanentes/Docker/3. Multiples contenedores/Estructura de un yaml para docker compose.md",
-    "Notas permanentes/Docker/About - Docker.md",
-    "Notas permanentes/Docker/4. Networking/About  - Networking.md",
     "Notas permanentes/Docker/3. Multiples contenedores/About-docker compose.md",
     "Notas permanentes/Docker/4. Networking",
     "assets/backend-docker.png",
@@ -208,16 +215,9 @@
     "Notas permanentes/Linux/14. Bash Script/Variable $BASHPID.md",
     "Notas permanentes/Docker/1. Introduccion/Docker Container.md",
     "Notas permanentes/Linux/14. Bash Script/Variable $GATO.md",
-    "Notas permanentes/Linux/14. Bash Script/About - Bash Script.md",
-    "Notas permanentes/Docker/1. Introduccion/About - Introduccion Docker.md",
     "Pasted image 20260924165730.png",
     "Notas permanentes/Docker/2. Persistencia de Datos en Contenedores",
     "assets/Pasted image 20260923104338.png",
-    "Notas permanentes/Docker/1. Introduccion/Contenedores vs Maquinas Virtuales.md",
-    "Notas permanentes/Docker/1. Introduccion/Dockerhub.md",
-    "Notas permanentes/Docker/1. Introduccion/Docker Image.md",
-    "Notas permanentes/Docker/1. Introduccion/Dockerfile.md",
-    "Notas permanentes/Linux/6. Trabajo con archivos/find - expresiones de recorrido.md",
     "assets/Pasted image 20260921182613.png",
     "Notas permanentes/Docker/1. Introduccion",
     "Notas permanentes/Docker",
